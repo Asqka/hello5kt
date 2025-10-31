@@ -1,5 +1,6 @@
 print("Hello world")
-def greet(name):
-    print(f"Hello, {name}!")
+def greet_all(names):
+    for name in names:
+        print(f"Hello, {name}!")
 
-greet("Asqka")
+greet_all(["Asya", "Malya"])
